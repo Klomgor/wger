@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: wger Workout Manager\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 07:28+0000\n"
-"PO-Revision-Date: 2026-07-15 15:03+0000\n"
+"PO-Revision-Date: 2026-07-16 16:01+0000\n"
 "Last-Translator: tomorigabor <tomorigabor89@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/wger/web/hu/>\n"
 "Language: hu\n"
@@ -149,7 +149,7 @@ msgstr "Megerősítés"
 msgid ""
 "Your account has no password. Type the username \"{username}\" to confirm."
 msgstr ""
-"A felhasználódnak nincs jelszava. Írd be a felhasználóneved \"{username}\" a "
+"A profilodnak nincs jelszava. Írd a felhasználóneved \"{username}\" a "
 "jóváhagyáshoz."
 
 #: core/forms.py:313
@@ -554,10 +554,10 @@ msgid ""
 "                their data.\n"
 "            "
 msgstr ""
-"Az oldalt\n"
-"                „%(current_user)s” felhasználóként böngészed, minden művelet "
-"az\n"
-"                ő adatain történik.\n"
+"A\n"
+"                webhelyet „%(current_user)s” felhasználóként böngészed, "
+"minden művelet\n"
+"                az ő adatain történik.\n"
 "            "
 
 #: core/templates/delete.html:4
@@ -2601,27 +2601,27 @@ msgstr "A szénhidrátok cukortartalma"
 #: nutrition/templates/ingredient/view.html:191
 #: nutrition/templates/ingredient/view.html:212
 msgid "n.A."
-msgstr ""
+msgstr "N/A"
 
 #: nutrition/templates/ingredient/view.html:119 nutrition/views/plan.py:281
 msgid "Saturated fat content in fats"
-msgstr ""
+msgstr "A zsírok telítettzsír-tartalma"
 
 #: nutrition/templates/ingredient/view.html:135
 msgid "Others"
-msgstr ""
+msgstr "Egyéb"
 
 #: nutrition/templates/ingredient/view.html:141 nutrition/views/plan.py:287
 msgid "Fiber"
-msgstr ""
+msgstr "Rost"
 
 #: nutrition/templates/ingredient/view.html:151 nutrition/views/plan.py:293
 msgid "Sodium"
-msgstr ""
+msgstr "Nátrium"
 
 #: nutrition/templates/ingredient/view.html:167
 msgid "Dietary information"
-msgstr ""
+msgstr "Táplálkozási információk"
 
 #: nutrition/templates/ingredient/view.html:203
 msgid "Nutri-Score"
@@ -2629,11 +2629,11 @@ msgstr "Nutri-Score"
 
 #: nutrition/templates/ingredient/view.html:234
 msgid "Add new weight unit"
-msgstr ""
+msgstr "Új tömeg mértékegység megadása"
 
 #: nutrition/templates/rate/form.html:26
 msgid "Basal metabolic rate"
-msgstr ""
+msgstr "Alapjárati kalóriaszükséglet"
 
 #: nutrition/templates/rate/form.html:27
 msgid ""
@@ -2642,14 +2642,18 @@ msgid ""
 "any\n"
 "additional physical activity."
 msgstr ""
+"Az alapjárati kalóriaszükséglet a nyugalmi állapotban naponta\n"
+"felhasznált energiamennyiség. Ez a szervezet működéséhez szükséges "
+"minimális\n"
+"energia, további fizikai aktivitás nélkül."
 
 #: nutrition/templates/rate/form.html:38
 msgid "Your basic metabolic rate is: "
-msgstr ""
+msgstr "A Te alapjárati kalóriaszükségleted: "
 
 #: nutrition/templates/rate/form.html:48
 msgid "Physical activities"
-msgstr ""
+msgstr "Fizikai tevékenységek"
 
 #: nutrition/templates/rate/form.html:49
 msgid ""
@@ -2657,20 +2661,25 @@ msgid ""
 "the additional physical activity and is used to calculate the total energy\n"
 "required per day."
 msgstr ""
+"A fizikai aktivitási szint (PAL) a további fizikai aktivitás \n"
+"mértékét kifejező tényező, amelyet a napi teljes energiaszükséglet\n"
+"kiszámításához használnak."
 
 #: nutrition/templates/rate/form.html:60
 msgid "Factor for daily activities: "
-msgstr ""
+msgstr "A napi tevékenységekhez tartozó tényező: "
 
 #: nutrition/templates/rate/form.html:68
 msgid ""
 "The base caloric intake is the amount of calories your metabolism\n"
 "needs based on your level of physical activity."
 msgstr ""
+"Az alap kalóriabevitel az az energiamennyiség, amelyre az \n"
+"anyagcserédnek a fizikai aktivitási szinted alapján szüksége van."
 
 #: nutrition/templates/rate/form.html:82
 msgid "Calculate basic caloric intake"
-msgstr ""
+msgstr "Alap kalóriabevitel számítása"
 
 #: nutrition/templates/rate/form.html:89
 msgid ""
@@ -2679,10 +2688,14 @@ msgid ""
 "Alternatively\n"
 "you might just enter yourself the amount of calories if you know the value."
 msgstr ""
+"A teljes kalóriamennyiség a tényleges napi kalóriabevitelt jelenti. Ez \n"
+"például kalóriatöbbletet vagy -hiányt is tartalmazhat, ha tömeget növelsz "
+"vagy szálkásítasz. \n"
+"Ha ismered az értéket, a kalóriamennyiséget kézzel is megadhatod."
 
 #: nutrition/templates/rate/form.html:103
 msgid "Transfer basic intake to total daily calories"
-msgstr ""
+msgstr "Az alap kalóriabevitel átvitele a teljes napi kalóriamennyiséghez"
 
 #: nutrition/templates/rate/form.html:107
 msgid "Add additional calories to total daily calories"
