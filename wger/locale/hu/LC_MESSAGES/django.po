@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 07:28+0000\n"
 "PO-Revision-Date: 2026-07-16 16:01+0000\n"
-"Last-Translator: tomorigabor <tomorigabor89@gmail.com>\n"
+"Last-Translator: László Mócsy <studiolamax@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/wger/web/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -199,7 +199,7 @@ msgstr "Link a licenc szöveghez vagy egyéb információkhoz"
 #: core/models/profile.py:60
 #, python-format
 msgid "%(birthdate)s is not a valid birthdate"
-msgstr "%(birthdate)s nem érvényes születési idő"
+msgstr "%(birthdate)s nem érvényes születési dátum"
 
 #: core/models/profile.py:69
 msgid "Male"
