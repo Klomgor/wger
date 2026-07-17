@@ -301,6 +301,11 @@ if env.bool('X_FORWARDED_PROTO_HEADER_SET', False):
         'https',
     )
 
+# Build absolute URLs (e.g. OAuth redirect URIs) from the X-Forwarded-Host
+# header instead of the Host header. Only enable this behind a reverse proxy
+# that sets the header, as it is otherwise attacker-controlled.
+USE_X_FORWARDED_HOST = env.bool('USE_X_FORWARDED_HOST', False)
+
 REST_FRAMEWORK['NUM_PROXIES'] = env.int('NUMBER_OF_PROXIES', 1)
 
 #
