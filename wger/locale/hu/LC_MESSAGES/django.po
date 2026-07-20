@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: wger Workout Manager\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 07:28+0000\n"
-"PO-Revision-Date: 2026-07-20 18:55+0000\n"
+"PO-Revision-Date: 2026-07-21 20:01+0000\n"
 "Last-Translator: tomorigabor <tomorigabor89@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/wger/web/hu/>\n"
 "Language: hu\n"
@@ -77,7 +77,7 @@ msgstr "Vezetéknév"
 #: core/forms.py:131 core/models/profile.py:200
 #: gym/templates/gym/new_user.html:38
 msgid "Date of Birth"
-msgstr "Születés Időpontja"
+msgstr "Születés időpontja"
 
 #: core/forms.py:172
 msgid "Personal data"
@@ -1211,7 +1211,7 @@ msgstr "Telefon"
 #: core/templates/user/overview.html:328 gym/templates/contract/view.html:87
 #: gym/templates/gym/member_list.html:130
 msgid "Address"
-msgstr "Cím"
+msgstr "Lakcím"
 
 #: core/templates/user/overview.html:339
 msgid "Registered"
@@ -1508,7 +1508,7 @@ msgstr "szerkesztett"
 
 #: exercises/templates/history/overview.html:98
 msgid "deleted"
-msgstr "törölte"
+msgstr "törölve"
 
 #: exercises/templates/history/overview.html:100
 msgid "merged"
