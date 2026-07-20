@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: wger Workout Manager\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 07:28+0000\n"
-"PO-Revision-Date: 2026-07-16 16:01+0000\n"
-"Last-Translator: László Mócsy <studiolamax@gmail.com>\n"
+"PO-Revision-Date: 2026-07-20 18:55+0000\n"
+"Last-Translator: tomorigabor <tomorigabor89@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/wger/web/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -2571,7 +2571,7 @@ msgstr "előző"
 #: nutrition/templates/ingredient/overview.html:77
 #: nutrition/templates/ingredient/overview.html:82
 msgid "next"
-msgstr "következő"
+msgstr "Következő"
 
 #: nutrition/templates/ingredient/overview.html:90
 msgid "Search"
@@ -2699,11 +2699,11 @@ msgstr "Az alap kalóriabevitel átvitele a teljes napi kalóriamennyiséghez"
 
 #: nutrition/templates/rate/form.html:107
 msgid "Add additional calories to total daily calories"
-msgstr ""
+msgstr "További kalóriák hozzáadása a teljes napi kalóriamennyiséghez"
 
 #: nutrition/templates/rate/form.html:111
 msgid "Save total calories to profile"
-msgstr ""
+msgstr "A teljes kalóriamennyiség mentése a profilba"
 
 #: nutrition/templates/rate/form.html:122
 msgid ""
@@ -2711,23 +2711,28 @@ msgid ""
 "approximation. If you base your nutrition plan on these values, observe\n"
 "yourself for some weeks and change the total amount if needed."
 msgstr ""
+"Kérjük, vedd figyelembe, hogy ezek a számítások csak \n"
+"hozzávetőleges értékeket adnak. Ha ezekre az értékekre alapozod az "
+"étrendedet, \n"
+"néhány héten keresztül figyeld a változásokat, és szükség esetén módosítsd a "
+"teljes kalóriamennyiséget."
 
 #: nutrition/views/ingredient.py:250
 msgid "Add a new ingredient"
-msgstr ""
+msgstr "Új összetevő hozzáadása"
 
 #: nutrition/views/plan.py:128
 msgid "Nutritional plan"
-msgstr ""
+msgstr "Táplálkozási terv"
 
 #: nutrition/views/plan.py:130
 #, python-format
 msgid "Nutritional plan for %s"
-msgstr ""
+msgstr "Táplálkozási terv %s-nak/-nek"
 
 #: nutrition/views/plan.py:202
 msgid "<i>This is an empty plan, what did you expect on the PDF?</i>"
-msgstr ""
+msgstr "<i>Ez egy üres terv, mire számítottál a PDF-ben?</i>"
 
 #: nutrition/views/plan.py:230
 msgid "Nutritional data"
@@ -2735,23 +2740,23 @@ msgstr "Tápértékadatok"
 
 #: nutrition/views/plan.py:238
 msgid "Total"
-msgstr ""
+msgstr "Összesen"
 
 #: nutrition/views/plan.py:239
 msgid "Percent of energy"
-msgstr ""
+msgstr "Energia százalék"
 
 #: nutrition/views/plan.py:240
 msgid "g per body kg"
-msgstr ""
+msgstr "g testtömeg kg-onként"
 
 #: nutrition/views/unit_ingredient.py:64
 msgid "Add a new weight unit"
-msgstr ""
+msgstr "Új súlyegység hozzáadása"
 
 #: nutrition/views/unit_ingredient.py:99
 msgid "Edit a weight unit to ingredient connection"
-msgstr ""
+msgstr "Súlyegység és összetevő közötti kapcsolat szerkesztése"
 
 #: nutrition/views/unit_ingredient.py:129
 msgid "Delete?"
@@ -2764,10 +2769,14 @@ msgid ""
 "yourself, and also provide a convenient, free, and hosted version for easy "
 "access."
 msgstr ""
+"A wger segít nyomon követni az edzéseidet, kezelni a táplálkozásodat és "
+"elérni a fitneszcéljaidat. Ingyenes, nyílt forráskódú szoftverként saját "
+"szerveren is üzemeltetheted, emellett az egyszerű hozzáférés érdekében egy "
+"kényelmes, ingyenes, általunk üzemeltetett változatot is biztosítunk."
 
 #: software/templates/about_us.html:18
 msgid "Open Source & free to use ❤️"
-msgstr ""
+msgstr "Nyílt forráskódú és ingyenesen használható ❤️"
 
 #: software/templates/about_us.html:20
 msgid ""
@@ -2777,10 +2786,16 @@ msgid ""
 "runs entirely on this open-source foundation. We believe powerful fitness "
 "tools should be accessible to everyone."
 msgstr ""
+"A wger a nyílt forráskód alapelveire épül. Forráskódja nyilvánosan elérhető, "
+"és közösségünk fejleszti, ezáltal biztosítva az átláthatóságot és az adataid "
+"feletti rendelkezést, különösen saját üzemeltetés esetén. Az ingyenes, "
+"általunk üzemeltetett szolgáltatás teljes egészében erre a nyílt forráskódú "
+"alapra épül. Hiszünk abban, hogy a hatékony fitneszeszközöknek mindenki "
+"számára elérhetőnek kell lenniük."
 
 #: software/templates/about_us.html:30
 msgid "How you can help"
-msgstr ""
+msgstr "Hogyan tudsz segíteni"
 
 #: software/templates/about_us.html:40
 msgid "Join the Community"
@@ -2788,23 +2803,30 @@ msgstr "Csatlakozz a közösséghez"
 
 #: software/templates/about_us.html:46
 msgid "Join the Discord server"
-msgstr ""
+msgstr "Csatlakozz a Discord szerverünkhöz"
 
 #: software/templates/about_us.html:47
 msgid ""
 "Hop on the Discord server to chat with the developers and other users, ask "
 "questions, or discuss new features."
 msgstr ""
+"Csatlakozz a Discord-szerverhez, ahol beszélgethetsz a fejlesztőkkel és más "
+"felhasználókkal, kérdéseket tehetsz fel, vagy megvitathatod az új funkciókat."
 
 #: software/templates/about_us.html:55
 msgid "Get news, updates, and announcements about the project on Mastodon."
 msgstr ""
+"Kövesd a projekttel kapcsolatos híreket, frissítéseket és bejelentéseket a "
+"Mastodonon."
 
 #: software/templates/about_us.html:61
 msgid ""
 "Spread the word: Tell your friends, gym buddies, or share on social media! "
 "Your enthusiasm helps us grow and reach more people."
 msgstr ""
+"Terjeszd a hírét: mesélj róla a barátaidnak és edzőtársaidnak, vagy oszd meg "
+"a közösségi médiában! A lelkesedésed segít abban, hogy növekedjünk és még "
+"több emberhez eljussunk."
 
 #: software/templates/about_us.html:71
 msgid "Contribute your skills"
@@ -2812,19 +2834,19 @@ msgstr "Tedd hozzá a tudásod"
 
 #: software/templates/about_us.html:76
 msgid "Report bugs or suggest features"
-msgstr ""
+msgstr "Hibabejelentés vagy funkcióajánlás"
 
 #: software/templates/about_us.html:78
 msgid "Have a problem or idea? Let us know!"
-msgstr ""
+msgstr "Problémád vagy ötleted van? Mondd el nekünk!"
 
 #: software/templates/about_us.html:81
 msgid "Improve the exercises"
-msgstr ""
+msgstr "A gyakorlatok fejlesztése"
 
 #: software/templates/about_us.html:82
 msgid "Contribute new exercises, and edit or translate the existing ones."
-msgstr ""
+msgstr "Adj hozzá új gyakorlatokat, és szerkeszd vagy fordítsd le a meglévőket."
 
 #: software/templates/about_us.html:85
 msgid "Translate the application"
@@ -2834,18 +2856,21 @@ msgstr "Fordítsd le az alkalmazást"
 msgid ""
 "Help make the app accessible in more languages for users around the world."
 msgstr ""
+"Segíts abban, hogy az alkalmazás világszerte még több nyelven elérhető "
+"legyen a felhasználók számára."
 
 #: software/templates/about_us.html:89
 msgid "Contribute code or documentation"
-msgstr ""
+msgstr "Járulj hozzá kóddal vagy dokumentációval"
 
 #: software/templates/about_us.html:90
 msgid "Check out the source code and help us build the next version."
 msgstr ""
+"Tekintsd meg a forráskódot, és segíts nekünk elkészíteni a következő verziót."
 
 #: software/templates/about_us.html:96
 msgid "Make a donation"
-msgstr ""
+msgstr "Adományozz"
 
 #: software/templates/about_us.html:100
 msgid ""
@@ -2856,24 +2881,34 @@ msgid ""
 "essential costs, helping to keep the service reliable, improving, and free "
 "for everyone."
 msgstr ""
+"Bár a projekt ingyenes, és mindig az is marad, a szerver üzemeltetése nem "
+"az! A wger általunk üzemeltetett változatának biztosítása folyamatos, valós "
+"költségekkel jár, például a szerverüzemeltetés, az adatforgalom és a "
+"biztonsági mentések miatt. A fejlesztés emellett jelentős időt és munkát "
+"igényel az önkéntesektől. A hozzájárulásod közvetlenül támogatja ezeket az "
+"alapvető költségeket, és segít abban, hogy a szolgáltatás megbízható, "
+"folyamatosan fejlődő és mindenki számára ingyenes maradjon."
 
 #: software/templates/about_us.html:135
 msgid "Sponsor on GitHub"
-msgstr ""
+msgstr "Támogass a GitHubon"
 
 #: software/templates/about_us.html:142
 msgid "Thank You!"
-msgstr ""
+msgstr "Köszönjük!"
 
 #: software/templates/about_us.html:144
 msgid ""
 "Thank you for being part of the community! We appreciate your usage, "
 "feedback, and any support you can offer."
 msgstr ""
+"Köszönjük, hogy a közösség tagja vagy! Nagyra értékeljük, hogy használod az "
+"alkalmazást, megosztod velünk a visszajelzéseidet, és bármilyen módon "
+"támogatod a projektet."
 
 #: software/templates/about_us.html:155
 msgid "Our goal"
-msgstr ""
+msgstr "Célunk"
 
 #: software/templates/about_us.html:158
 msgid ""
@@ -2881,12 +2916,17 @@ msgid ""
 "comprehensive and complete list of exercises and ingredients, all released "
 "under a free license."
 msgstr ""
+"A cél egy nagyszerű és rugalmas fitneszkezelő létrehozása, valamint egy "
+"átfogó és teljes gyakorlat- és összetevő-adatbázis összeállítása, mindez "
+"szabad licenc alatt közzétéve."
 
 #: software/templates/features.html:11
 msgid ""
 "wger Workout Manager is a free, open source web application that manages "
 "your exercises and workouts."
 msgstr ""
+"A wger Workout Manager egy ingyenes, nyílt forráskódú webalkalmazás az "
+"edzések és gyakorlatok kezelésére."
 
 #: software/templates/features.html:45
 msgid "Contact"
@@ -2894,15 +2934,15 @@ msgstr "Kapcsolat"
 
 #: software/templates/features.html:57
 msgid "Mobile app"
-msgstr ""
+msgstr "Mobilalkalmazás"
 
 #: software/templates/features.html:63 software/templates/features.html:337
 msgid "Donate"
-msgstr ""
+msgstr "Adományozás"
 
 #: software/templates/features.html:68
 msgid "Develop"
-msgstr ""
+msgstr "Fejlesztés"
 
 #: software/templates/features.html:73 software/templates/features.html:476
 msgid "Community"
@@ -2910,12 +2950,14 @@ msgstr "Közösség"
 
 #: software/templates/features.html:110
 msgid "Track your <br> way to your <br> ideal body"
-msgstr ""
+msgstr "Kövesd nyomon <br> az utadat <br> az ideális tested felé"
 
 #: software/templates/features.html:113
 msgid ""
 "Join wger, the community-driven <b>free and open-source fitness tracker</b>"
 msgstr ""
+"Csatlakozz a wgerhez, a közösség által fejlesztett <b>ingyenes és nyílt "
+"forráskódú fitneszkövetőhöz</b>"
 
 #: software/templates/features.html:123
 msgid "Get Started"
@@ -2923,7 +2965,7 @@ msgstr "Kezdés"
 
 #: software/templates/features.html:133
 msgid "people <br> using wger"
-msgstr ""
+msgstr "emberek, akik <br> használják a wgert"
 
 #: software/templates/features.html:137
 msgid "exercises <br> for workout creation"
@@ -2931,58 +2973,70 @@ msgstr "gyakorlat <br> edzéskészítéshez"
 
 #: software/templates/features.html:141
 msgid "foods <br> for meal planning"
-msgstr ""
+msgstr "ételek <br> az étrend megtervezéséhez"
 
 #: software/templates/features.html:145
 msgid "stars <br> on GitHub"
-msgstr ""
+msgstr "csillagok <br> GibHubon"
 
 #: software/templates/features.html:173
 msgid "Craft your perfect <span>workout routines</span>"
-msgstr ""
+msgstr "Állítsd össze a tökéletes <span>gyakorlatsoraidat</span>"
 
 #: software/templates/features.html:177
 msgid "Design a weekly workout plan from more than 100 exercises"
-msgstr ""
+msgstr "Állíts össze heti edzéstervet több mint 100 gyakorlatból"
 
 #: software/templates/features.html:180
 msgid "Set reps and sets, duration, or distance goals for each exercise"
 msgstr ""
+"Állíts be ismétlés- és sorozatszámot, időtartamot vagy távolságcélt minden "
+"gyakorlathoz"
 
 #: software/templates/features.html:183
 msgid "Get guided through your workouts step by step"
-msgstr ""
+msgstr "Haladj végig az edzéseiden lépésről lépésre, útmutatással"
 
 #: software/templates/features.html:186
 msgid ""
 "Keep track of the workouts you've done, including how you felt you performed"
 msgstr ""
+"Kövesd nyomon az elvégzett edzéseidet, beleértve azt is, hogyan értékelted a "
+"teljesítményedet"
 
 #: software/templates/features.html:211
 msgid "Plan your <span>daily meals</span>"
-msgstr ""
+msgstr "Tervezd meg a <span>napi étkezéseidet</span>"
 
 #: software/templates/features.html:215
 msgid "Fill your week with nutritious meals that help you perform better"
 msgstr ""
+"Töltsd meg a heted tápláló ételekkel, amelyek segítenek jobb teljesítményt "
+"nyújtani"
 
 #: software/templates/features.html:218
 msgid "Build meals from a database of more than 2 million foods"
 msgstr ""
+"Állíts össze étkezéseket több mint 2 millió élelmiszert tartalmazó "
+"adatbázisból"
 
 #: software/templates/features.html:221
 msgid ""
 "Get automatically calculated nutritional values (energy, protein, "
 "carbs, ...) for both individual meals and your entire weekly plan"
 msgstr ""
+"Automatikusan kiszámított tápértékeket kapsz (energia, fehérje, szénhidrát "
+"stb.) az egyes étkezésekhez és a teljes heti étrendedhez is"
 
 #: software/templates/features.html:251
 msgid "Keep track of <span>your progress</span>"
-msgstr ""
+msgstr "Kövesd nyomon <span>a fejlődésedet</span>"
 
 #: software/templates/features.html:256
 msgid "Track and annotate everything about your meals and workouts"
 msgstr ""
+"Kövesd nyomon és jegyezd fel az étkezéseiddel és edzéseiddel kapcsolatos "
+"minden részletet"
 
 #: software/templates/features.html:259
 msgid "Add custom notes"
@@ -2990,39 +3044,44 @@ msgstr "Egyéni jegyzetek hozzáadása"
 
 #: software/templates/features.html:262
 msgid "Record your weight"
-msgstr ""
+msgstr "Rögzítsd a testsúlyodat"
 
 #: software/templates/features.html:265
 msgid "Keep a photo log to see your progress"
-msgstr ""
+msgstr "Vezess fotónaplót, hogy lásd a fejlődésedet"
 
 #: software/templates/features.html:268
 msgid "Use the calendar view to see past entries"
-msgstr ""
+msgstr "Használd a naptárnézetet a korábbi bejegyzések megtekintéséhez"
 
 #: software/templates/features.html:287
 msgid "Try wger now"
-msgstr ""
+msgstr "Próbáld ki a wger-t most"
 
 #: software/templates/features.html:308
 msgid "Powered By <span>the community</span>"
-msgstr ""
+msgstr "A <span>közösség</span> erejével"
 
 #: software/templates/features.html:311
 msgid ""
 "wger is funded and created by the open-source community: people like you "
 "translating, adding exercises and nutritional info, developing, and more."
 msgstr ""
+"A wgert a nyílt forráskódú közösség finanszírozza és fejleszti: hozzád "
+"hasonló emberek, akik fordítanak, gyakorlatokat és táplálkozási adatokat "
+"adnak hozzá, fejlesztenek és sok más módon közreműködnek."
 
 #: software/templates/features.html:317
 msgid ""
 "We don't use ads, don't sell your personal info, and we share the code under "
 "a free and open-source license."
 msgstr ""
+"Nem használunk hirdetéseket, nem adjuk el a személyes adataidat, a "
+"forráskódot pedig ingyenes és nyílt forráskódú licenc alatt tesszük közzé."
 
 #: software/templates/features.html:322
 msgid "Pitch in and help make wger even better!"
-msgstr ""
+msgstr "Szállj be te is, és segíts még jobbá tenni a wgert!"
 
 #: software/templates/features.html:331
 msgid "Contribute"
@@ -3030,11 +3089,11 @@ msgstr "Közreműködés"
 
 #: software/templates/features.html:355
 msgid "Sign Up Now For Free"
-msgstr ""
+msgstr "Regisztrálj most ingyen"
 
 #: software/templates/features.html:369
 msgid "Web version not enough?"
-msgstr ""
+msgstr "Nem elég a webes verzió?"
 
 #: software/templates/features.html:371
 msgid "Get the code, too!"
@@ -3042,31 +3101,35 @@ msgstr "Szerezd meg a kódot is!"
 
 #: software/templates/features.html:382
 msgid "Set up a private server for your gym"
-msgstr ""
+msgstr "Állíts be egy privát szervert az edzéseidhez"
 
 #: software/templates/features.html:385
 msgid ""
 "Don't want your data on an online service? Set up a wger instance on your "
 "own server for free!"
 msgstr ""
+"Nem akarod online szervereken tárolni az adataid? Állíts be egy saját wger "
+"felületet a saját szervereden ingyen!"
 
 #: software/templates/features.html:399
 msgid "Integrate with your own app"
-msgstr ""
+msgstr "Integráld a saját alkalmazásoddal"
 
 #: software/templates/features.html:402
 msgid "wger offers an open API that you can use for your app."
-msgstr ""
+msgstr "A wger nyílt API-t biztosít az alkalmazásodhoz."
 
 #: software/templates/features.html:413
 msgid "Create your own version"
-msgstr ""
+msgstr "Készíts saját verziót"
 
 #: software/templates/features.html:416
 msgid ""
 "The source code is available under the GNU AGPLv3 license! Feel free to fork "
 "it on GitHub."
 msgstr ""
+"A forráskód a GNU AGPLv3 licenc alatt érhető el! Bátran készíts belőle saját "
+"változatot a GitHubon."
 
 #: software/templates/features.html:437
 msgid "Account"
@@ -3082,19 +3145,19 @@ msgstr "Edzéstervek"
 
 #: software/templates/features.html:491
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: software/templates/features.html:506
 msgid "Software"
-msgstr ""
+msgstr "Szoftver"
 
 #: software/templates/features.html:512
 msgid "Report an issue"
-msgstr ""
+msgstr "Hibabejelentés"
 
 #: software/templates/features.html:518
 msgid "Source Code"
-msgstr ""
+msgstr "Forráskód"
 
 #: software/templates/features.html:524
 msgid "Translation"
@@ -3106,27 +3169,27 @@ msgstr "Igen, töröld"
 
 #: utils/models.py:75
 msgid "The original title of this object, if available"
-msgstr ""
+msgstr "Az objektum eredeti címe, ha elérhető"
 
 #: utils/models.py:81
 msgid "Link to original object, if available"
-msgstr ""
+msgstr "Az eredeti objektum linkje, ha elérhető"
 
 #: utils/models.py:87
 msgid "Author(s)"
-msgstr ""
+msgstr "Alkotó(k)"
 
 #: utils/models.py:91
 msgid "If you are not the author, enter the name or source here."
-msgstr ""
+msgstr "Ha nem Te vagy az alkotó, add meg a nevet vagy a forrást itt."
 
 #: utils/models.py:95
 msgid "Link to author profile, if available"
-msgstr ""
+msgstr "Alkotó profiljának linkje, ha elérhető"
 
 #: utils/models.py:101
 msgid "Link to the original source, if this is a derivative work"
-msgstr ""
+msgstr "Hivatkozás az eredeti forrásra, ha ez származékos alkotás"
 
 #: utils/models.py:103
 msgid ""
@@ -3134,28 +3197,33 @@ msgid ""
 "work, but which also contains sufficient new, creative content to entitle it "
 "to its own copyright."
 msgstr ""
+"Megjegyzendő, hogy származékos alkotásnak az minősül, amely nem csupán egy "
+"korábbi alkotáson alapul, hanem elegendő új, kreatív tartalmat is tartalmaz "
+"ahhoz, hogy önálló szerzői jogi védelemben részesüljön."
 
 #: weight/forms.py:53
 msgid "Input"
-msgstr ""
+msgstr "Bevitel"
 
 #: weight/forms.py:54
 msgid "Date format"
-msgstr ""
+msgstr "Dátum formátum"
 
 #: weight/management/commands/email-weight-reminder.py:81
 msgid "You have to enter your weight"
-msgstr ""
+msgstr "Meg kell adnod a súlyod"
 
 #: weight/templates/import_csv_form.html:4
 msgid "Import weight logs"
-msgstr ""
+msgstr "Tömegadatok importálása"
 
 #: weight/templates/import_csv_form.html:15
 msgid ""
 "Use this import field to import your weight logs into Workout\n"
 "Manager."
 msgstr ""
+"Használd ezt az import mezőt hogy az edzéstervezőbe importáld \n"
+"a súlyadataid."
 
 #: weight/templates/import_csv_form.html:18
 msgid ""
@@ -3166,24 +3234,33 @@ msgid ""
 "<strong>weight</strong>.\n"
 "All further columns are ignored. There is a 1000 row limit.\n"
 msgstr ""
+"A táblázatkezelőből kimásolt adatokat beillesztheted a szövegmezőbe; \n"
+"a rendszer megpróbálja automatikusan felismerni az importálandó adatok "
+"formátumát. Arra kell \n"
+"ügyelned, hogy az első oszlopban a <strong>dátum</strong>, a másodikban "
+"pedig a <strong>testsúly</strong> \n"
+"szerepeljen. A rendszer minden további oszlopot figyelmen kívül hagy. "
+"Legfeljebb 1000 sor importálható.\n"
 
 #: weight/templates/import_csv_form.html:24
 msgid ""
 "If there are errors, you can correct or discard them in a\n"
 "second step."
 msgstr ""
+"Ha vannak hibák, azokat javíthatod, vagy törölheted a\n"
+"második lépésben."
 
 #: weight/templates/import_csv_preview.html:4
 msgid "Preview imported CSV entries"
-msgstr ""
+msgstr "Importált CSV bejegyzések előnézete"
 
 #: weight/templates/import_csv_preview.html:9
 msgid "Successfully converted values"
-msgstr ""
+msgstr "Sikeres értékátalakítás"
 
 #: weight/templates/import_csv_preview.html:10
 msgid "The following values could be converted."
-msgstr ""
+msgstr "Az alábbi értékek konvertálhatóak."
 
 #: weight/templates/import_csv_preview.html:26
 msgid "Errors"
@@ -3191,7 +3268,7 @@ msgstr "Hibák"
 
 #: weight/templates/import_csv_preview.html:29
 msgid "The following values could not be converted."
-msgstr ""
+msgstr "Az alábbi értékek nem konvertálhatóak."
 
 #: weight/templates/import_csv_preview.html:31
 msgid ""
@@ -3204,20 +3281,30 @@ msgid ""
 "are!)\n"
 "    and try to import the list again."
 msgstr ""
+"Ezeket az értékeket nem sikerült testsúlynapló-bejegyzésekké alakítani. \n"
+"    Ennek oka lehet többek között a fel nem ismert dátum- vagy számformátum, "
+"\n"
+"    kódolási probléma vagy más hiba. Ellenőrizd, hogy nincs-e nyilvánvaló "
+"hiba \n"
+"    a listában, szükség esetén javítsd ki, \n"
+"    majd próbáld meg újra importálni."
 
 #: weight/templates/import_csv_preview.html:37
 msgid ""
 "Remember that the expected structure is <strong>date</strong>\n"
 "    on the first columns and <strong>weight</strong> on the second."
 msgstr ""
+"Ne feledd, hogy az elvárt felépítés szerint az első oszlopban a <strong>"
+"dátum</strong>,\n"
+"    a másodikban pedig a <strong>testsúly</strong> szerepel."
 
 #: weight/templates/import_csv_preview.html:54
 msgid "There were no errors, all entries could be converted!"
-msgstr ""
+msgstr "Nem voltak hibák, minden bejegyzés konvertálható volt!"
 
 #: weight/templates/import_csv_preview.html:58
 msgid "Import all successfully converted entries"
-msgstr ""
+msgstr "Sikeresen konvertált bejegyzések importálása"
 
 #: weight/templates/import_csv_preview.html:59
 msgid ""
@@ -3227,6 +3314,12 @@ msgid ""
 "will simply be ignored. It's up to you to decide whether they are useful\n"
 "(unrecognised entries) or not (e.g. headers, comments, etc.)."
 msgstr ""
+"Folytasd itt, ha az összes sikeresen átalakított bejegyzést importálni \n"
+"szeretnéd a testsúlynaplódba. A hibát okozó bejegyzéseket a rendszer "
+"egyszerűen \n"
+"figyelmen kívül hagyja. Neked kell eldöntened, hogy ezek hasznos, de fel nem "
+"ismert \n"
+"bejegyzések-e, vagy sem (például fejlécek, megjegyzések stb.)."
 
 #: weight/templates/import_csv_preview.html:69
 msgid "Import"
@@ -3234,17 +3327,19 @@ msgstr "Importálás"
 
 #: weight/templates/import_csv_preview.html:74
 msgid "Or try it again"
-msgstr ""
+msgstr "Vagy próbáld még egyszer"
 
 #: weight/templates/import_csv_preview.html:76
 msgid ""
 "You can correct the list here and re-submit it as often as\n"
 "you want."
 msgstr ""
+"Itt kijavíthatod a listát, és annyiszor küldheted be újra, \n"
+"ahányszor csak szeretnéd."
 
 #: weight/templates/import_csv_preview.html:85
 msgid "Re-Submit"
-msgstr ""
+msgstr "Újraküldés"
 
 #~ msgid "Used for password resets and, optionally, e-mail reminders."
 #~ msgstr ""
