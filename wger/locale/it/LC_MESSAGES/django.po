@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: wger Workout Manager\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 07:28+0000\n"
-"PO-Revision-Date: 2026-07-18 13:01+0000\n"
-"Last-Translator: NP <0wk8a920@anonaddy.me>\n"
+"PO-Revision-Date: 2026-07-21 20:01+0000\n"
+"Last-Translator: Armando Schiano di Cola <armando.schianodicola@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/wger/web/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -909,13 +909,15 @@ msgstr "Genera un nuovo refresh token"
 
 #: core/templates/user/api_key.html:41
 msgid "Copy this token now."
-msgstr ""
+msgstr "Copia questo token adesso."
 
 #: core/templates/user/api_key.html:42
 msgid ""
 "It is shown only once. If you lose it, generate a new one and revoke the old "
 "session below."
 msgstr ""
+"Questo viene mostrato una sola volta. Se lo perdi, generane uno nuovo e "
+"annulla la sessione precedente qui sotto."
 
 #: core/templates/user/api_key.html:56
 #, python-format
@@ -923,6 +925,8 @@ msgid ""
 "Refresh tokens expire %(days)s days after they were generated, unless you "
 "revoke them sooner."
 msgstr ""
+"I token di aggiornamento scadono %(days)s giorni dopo essere stati generati, "
+"a meno che non vengano revocati prima."
 
 #: core/templates/user/api_key.html:65
 msgid "Created"
